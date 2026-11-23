@@ -12,7 +12,7 @@ Sitio web institucional estático para el Estudio Jurídico DLS Asociados Abogad
 
 ---
 
-![Social Preview](images_utilitarios/Preview.png)
+![Social Preview](assets/Preview.png) 
 
 ---
 
