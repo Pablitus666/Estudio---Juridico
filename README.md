@@ -12,6 +12,10 @@ Sitio web institucional estático para el Estudio Jurídico DLS Asociados Abogad
 
 ---
 
+![Social Preview](images_utilitarios/Preview.png)
+
+---
+
 ## ✨ Funcionalidades
 
 - Presentación institucional del estudio jurídico
@@ -31,6 +35,7 @@ Sitio estático. No requiere compilación ni servidor.
 1. Sube la carpeta completa a tu servidor estático (Netlify, Vercel, GitHub Pages, etc.)
 2. O conecta el repositorio de GitHub para despliegue automático
 3. La URL base es la raíz del sitio (`/`)
+4. URL en producción: https://dls-asociados-abogados.netlify.app/
 
 ### Estructura de archivos
 
