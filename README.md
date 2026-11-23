@@ -1,81 +1,70 @@
-# DLS Asociados Abogados — Sitio institucional
+# Sitio web DLS Asociados Abogados
 
-Sitio web estático, escalable, totalmente modular y de nivel profesional para **DLS Asociados Abogados**, Tarija, Bolivia.
+Sitio web institucional estático para el Estudio Jurídico DLS Asociados Abogados, ubicado en Tarija, Bolivia.
+
+## Descripción
+
+El sitio presenta la identidad institucional, las áreas de práctica jurídica, el equipo de profesionales y los canales de contacto del estudio.
 
 ## Estructura del proyecto
 
 ```
 DLS-Asociados-Abogados/
-├── index.html              # HTML semántico, SEO y datos estructurados (Schema.org)
+├── index.html
+├── terms-of-service.html
+├── privacy-policy.html
+├── sitemap.xml
+├── robots.txt
+├── _headers
 ├── README.md
-│
-├── assets/                 # Imágenes del sitio (usar exclusivamente esta carpeta)
+├── README (2).md
+├── RELEASE_DESCRIPTION.md
+├── assets/
 │   ├── favicon.svg
 │   ├── logo/
 │   │   ├── logo portada.webp
 │   │   └── logo-isotipo.svg
 │   ├── Redes Sociales/
-│   │   ├── facebook.svg
-│   │   ├── instagram.svg
-│   │   ├── whatsapp.svg
-│   │   ├── telegram.svg
-│   │   └── tiktok.svg
-│   └── images/             # Imágenes de contenido (hero, equipo, etc.)
-│       ├── moon.png
-│       └── sun.png
-│
-├── css/                    # Hojas de estilo modulares
-│   ├── tokens.css          # Design tokens: colores, tipografía, breakpoints, sombras
-│   ├── base.css            # Reset, tipografía, utilidades, botones, accesibilidad
-│   ├── components.css      # Componentes: header, hero, áreas, equipo, contacto, footer
-│   └── responsive.css      # Adaptación tableta y móvil
-│
-├── js/                     # Módulos JavaScript (ES modules)
-│   ├── main.js             # Punto de entrada; inicializa todos los módulos
-│   ├── config.js           # Configuración centralizada (contacto, redes, áreas)
-│   ├── navigation.js       # Menú móvil, header scroll, enlaces activos
-│   ├── reveal.js           # Animaciones al hacer scroll (IntersectionObserver)
-│   ├── contact-form.js     # Validación y enlace a WhatsApp
-│   ├── social-float.js     # Panel flotante de redes sociales
-│   └── year.js             # Año dinámico del copyright
-│
-└── images utilitarios/     # ⚠️ SOLO imágenes utilitarias. NO se usan en el sitio.
+│   └── images/
+│       ├── equipo/
+│       ├── oficina.webp
+│       └── mapa.webp
+├── css/
+│   ├── tokens.css
+│   ├── base.css
+│   ├── components.css
+│   └── responsive.css
+└── js/
+    ├── main.js
+    ├── config.js
+    ├── navigation.js
+    ├── reveal.js
+    ├── contact-form.js
+    ├── social-float.js
+    ├── year.js
+    ├── carousel.js
+    ├── map.js
+    └── theme.js
 ```
 
 ## Características técnicas
 
-- **Arquitectura modular:** CSS separado por responsabilidades (tokens, base, componentes, responsive). JavaScript en módulos ES independientes.
-- **Design tokens:** Colores, tipografía, espaciado y breakpoints centralizados en `css/tokens.css`.
-- **Tipografía profesional:** Cormorant Garamond para títulos y Inter para cuerpo, con escala tipográfica fluida (`clamp`).
-- **Diseño responsive:** Breakpoints en 1024px, 820px y 540px con menú móvil y diseños adaptados.
-- **Accesibilidad:** Skip link, `aria-*`, focus visible, contrastes WCAG, navegación por teclado.
-- **SEO:** Meta etiquetas, canonical, Open Graph listo, datos estructurados Schema.org (`LegalService`).
-- **Modo oscuro:** Soporte para `prefers-color-scheme: dark` mediante variables CSS.
-- **Preferencias de movimiento:** Respeta `prefers-reduced-motion`.
-- **Iconos:** SVG de redes sociales desde `assets/Redes Sociales/`.
-- **WhatsApp flotante:** Botón de contacto directo y panel de redes sociales lateral.
+- HTML5 semántico
+- CSS3 modular (tokens, base, components, responsive)
+- JavaScript nativo ES Modules
+- Diseño oscuro permanente con paleta institucional
+- Tipografía: Cormorant Garamond (títulos) e Inter (cuerpo)
+- Responsive con breakpoints en 1024px, 820px, 540px y 400px
+- Accesibilidad WCAG 2.2 AA (skip link, ARIA, foco visible, contraste)
+- SEO: Open Graph, Twitter Cards, JSON-LD (LegalService), sitemap.xml, robots.txt
+- Imágenes en WebP con lazy loading y srcset/sizes
 
-## Ejecutar localmente
+## Cómo desplegar
 
-Los módulos JavaScript deben servirse por HTTP. En PowerShell:
+Es un sitio estático. Puede subirse a Netlify, Vercel, GitHub Pages o cualquier servidor estático sin compilación previa.
 
-```powershell
-cd D:\Estudio Juridico\DLS-Asociados-Abogados
-py -m http.server 8080
-```
+## Autor
 
-Abrir `http://localhost:8080`.
+DLS Asociados Abogados — Estudio Jurídico, Tarija, Bolivia.
 
-## Contacto
-
-Los datos están centralizados en `js/config.js`. El formulario no guarda ni envía datos a un servidor: prepara un mensaje en WhatsApp para revisión manual.
-
-## Antes de publicar
-
-1. Validar las descripciones de servicios con el titular del estudio.
-2. Reemplazar los degradados de fondo por fotografías autorizadas del estudio, edificio y equipo (colocarlas en `assets/images/`).
-3. Añadir los enlaces reales de redes sociales en `index.html` y `js/config.js`.
-4. Confirmar la ubicación exacta del mapa de Google.
-5. Añadir aviso de privacidad y verificar el tratamiento de consultas.
-6. Probar en navegadores y dispositivos reales.
-7. Reemplazar la marca tipográfica temporal por el logotipo oficial del cliente cuando se disponga del archivo original.
+© 2026 — DLS Asociados Abogados. Todos los derechos reservados.
