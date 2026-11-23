@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# IMPORTANTE: Una vez se disponga del dominio definitivo de Netlify,
+# agregar la directiva Sitemap con la URL absoluta completa.
+# Ejemplo:
+# Sitemap: https://tu-sitio.netlify.app/sitemap.xml

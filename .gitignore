@@ -1,0 +1,11 @@
+# Carpeta de imágenes utilitarias - no subir al repositorio
+images utilitarios/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.log
+node_modules/

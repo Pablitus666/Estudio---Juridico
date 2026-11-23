@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--
+    IMPORTANTE: Reemplazar la dirección temporal de Netlify por el dominio definitivo
+    una vez que se disponga de él. Ejemplo:
+    <loc>https://tu-sitio.netlify.app/</loc>
+  -->
+  <url>
+    <loc>/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
