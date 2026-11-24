@@ -37,7 +37,6 @@
   /* Tipografía */
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, monospace;
 
   /* Espaciado y contenedor */
   --container-max: 1200px;
