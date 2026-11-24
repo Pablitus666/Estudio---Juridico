@@ -719,14 +719,14 @@
   height: 10px;
   border-radius: 50%;
   border: 1px solid var(--burdeo-border);
-  background: var(--surface);
+  background: var(--ink-soft);
   cursor: pointer;
   padding: 17px;
   background-clip: content-box;
 }
 
 .carousel-dot[aria-selected="true"] {
-  background: var(--burdeo);
+  background: var(--piedra);
   border-color: var(--burdeo);
 }
 
@@ -958,14 +958,14 @@
 .footer-brand strong {
   font: 600 1.8rem var(--font-display);
   line-height: 1;
-  color: var(--burdeo);
+  color: var(--piedra);
 }
 
 .footer-brand small {
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--burdeo);
+  color: var(--piedra);
 }
 
 .footer-main > p {
