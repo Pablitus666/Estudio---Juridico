@@ -164,7 +164,7 @@ p {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--burdeo);
+  color: var(--piedra);
   margin-bottom: 12px;
 }
 
@@ -176,31 +176,6 @@ p {
 }
 
 /* .eyebrow-light se usa sobre fondos oscuros (hero, contacto) para contraste accesible */
-.eyebrow-light {
-  color: var(--ink);
-}
-
-/* ==== Eyebrow (títulos de sección pequeños) ==== */
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--burdeo);
-  margin-bottom: 12px;
-}
-
-.eyebrow span {
-  display: inline-block;
-  width: 16px;
-  height: 1px;
-  background: currentColor;
-}
-
-/* .eyebrow-light se usa sobre fondos oscuros (hero, contacto) para que el texto se vea claro */
 .eyebrow-light {
   color: var(--ink);
 }
