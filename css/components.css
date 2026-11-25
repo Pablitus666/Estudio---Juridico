@@ -244,6 +244,10 @@
   font-weight: 600;
 }
 
+.hero h1 em {
+  color: var(--piedra);
+}
+
 .hero-lead {
   max-width: 580px;
   color: var(--ink-soft);
@@ -360,7 +364,7 @@
 .intro-copy h2 em,
 .section-heading h2 em,
 .team-copy h2 em {
-  color: var(--burdeo);
+  color: var(--piedra);
 }
 
 .intro-copy > p:not(.eyebrow) {
@@ -568,7 +572,7 @@
 
 .statement-inner > p:last-child {
   max-width: 560px;
-  color: var(--ink-soft);
+  color: var(--piedra);
   font-size: 1.05rem;
 }
 
@@ -750,7 +754,7 @@
 }
 
 .contact-heading h2 em {
-  color: var(--burdeo);
+  color: var(--piedra);
 }
 
 .section-intro-light {
